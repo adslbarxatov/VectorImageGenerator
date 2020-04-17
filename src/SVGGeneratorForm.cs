@@ -24,8 +24,7 @@ namespace RD_AAOW
 			// Настройка контролов
 			this.Text = ProgramDescription.AssemblyTitle;
 
-			for (int i = 0; i < Localization.AvailableLanguages; i++)
-				LanguageCombo.Items.Add (((SupportedLanguages)i).ToString ());
+			LanguageCombo.Items.AddRange (Localization.LanguagesNames);
 			try
 				{
 				LanguageCombo.SelectedIndex = (int)al;
@@ -53,8 +52,7 @@ namespace RD_AAOW
 			OFName.Text = SourcePath;
 			SFName.Text = DestinationPath;
 
-			for (int i = 0; i < Localization.AvailableLanguages; i++)
-				LanguageCombo.Items.Add (((SupportedLanguages)i).ToString ());
+			LanguageCombo.Items.AddRange (Localization.LanguagesNames);
 			try
 				{
 				LanguageCombo.SelectedIndex = (int)al;

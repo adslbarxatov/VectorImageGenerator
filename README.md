@@ -1,4 +1,4 @@
-# Vector image generator v 1.6u
+# Vector image generator v 1.6.2L
 
 A tool for controllable generation of vector images / Средство управляемого формирования векторных изображений
 

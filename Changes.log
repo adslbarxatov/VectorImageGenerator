@@ -1,5 +1,8 @@
 ﻿Vector image generator changes log
 
+Version 1.6.2L:
+• Applied correct representation of supported languages list
+
 Version 1.6u:
 • First publication on GitHub;
 • Application namespace, icon and development environment have been unified;
