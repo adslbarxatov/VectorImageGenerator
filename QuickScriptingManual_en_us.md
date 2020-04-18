@@ -1,7 +1,5 @@
 # Vector image generator v 1.6u: sample script file
 
-#
-
 This file is an example script for creating a vector image file. As you can see,
 comments can be located at the beginning of file and are not highlighted by special
 characters. In addition, comments can be located between description blocks
@@ -22,7 +20,6 @@ of special types:
 - If some line of the block begins with keyword "c=" (with small letter,
 without spaces), the line should contain a description of curve's color
 in format "c=R;G;B", where R, G and B are color decimal components.
-
 - If the line starts with keyword "w=", then the thickness of curve line
 should be specified after the equal sign.
 
