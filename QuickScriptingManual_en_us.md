@@ -1,4 +1,4 @@
-# Vector image generator v 1.6u: sample script file
+﻿# Vector image generator v 1.6.2L: sample script file
 
 This file is an example script for creating a vector image file. As you can see,
 comments can be located at the beginning of file and are not highlighted by special
@@ -56,9 +56,9 @@ it will be ignored. Each line contains description of the notch in format ```O;S
 where ```O``` is an offset of the notch from the left edge of axis; ```S``` is length
 of the notch (in half on both sides of the axis). There may be lines of special types:
 
-- Starts with ```c=``` - color of axis and notches.
-- Starts with ```w=``` - thickness of the axis line and notches.
-- Starts with ```o=``` - similar to ```w=``` - offset relative to the top of image.
+- Starts with ```c=``` – color of axis and notches.
+- Starts with ```w=``` – thickness of the axis line and notches.
+- Starts with ```o=``` – similar to ```w=``` – offset relative to the top of image.
 
 If any keyword occurs repeatedly, then the value of corresponding parameter
 will be replaced by the newly specified. Moreover, all lines of special kind
@@ -86,7 +86,7 @@ w=3
 The ```[Text]``` block describes text labels on the image. If ```[Text]``` keyword is repeated
 in the script file, contents of corresponding block will be added to existing
 descriptions. Each first line contains line parameters in format ```X;Y;R;G;B;S```,
-where ```X``` and ```Y``` are coordinates of the label; ```R```, ```G``` and ```B``` - color;
+where ```X``` and ```Y``` are coordinates of the label; ```R```, ```G``` and ```B``` – color;
 ```S``` is the font size. Each second line contains the text itself.
 
 ```
