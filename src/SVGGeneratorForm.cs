@@ -316,7 +316,18 @@ namespace RD_AAOW
 			e.Cancel = true;
 
 			// Отображение
-			ProgramDescription.ShowAbout ();
+			AboutForm af = new AboutForm (al, "https://github.com/adslbarxatov/VectorImageGenerator",
+				"https://github.com/adslbarxatov/VectorImageGenerator/releases",
+				"",
+
+				"This tool allows you to generate vector image (SVG or EMF) using script file with adjustable " +
+				"parameters of curves, axes and text labels. This application is the side product of Geomag " +
+				"data drawer project. For more info save example file from the utility and open it as text\r\n\r\n" +
+
+				"Этот инструмент позволяет генерировать векторное изображение (SVG или EMF), используя файл сценария " +
+				"с настраиваемыми параметрами кривых, осей и текстовых меток. Это приложение является побочным продуктом " +
+				"проекта Geomag data drawer. Для получения дополнительной информации сохраните файл образца из утилиты и " +
+				"откройте его в текстовом представлении");
 			}
 
 		// Выбор языка интерфейса

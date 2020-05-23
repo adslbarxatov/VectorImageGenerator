@@ -1,6 +1,8 @@
-# Vector image generator v 1.6.2L
+# Vector image generator v 1.7h
 
-A tool for controllable generation of vector images / Средство управляемого формирования векторных изображений
+A tool for controllable generation of vector images
+
+Средство управляемого формирования векторных изображений
 
 #
 

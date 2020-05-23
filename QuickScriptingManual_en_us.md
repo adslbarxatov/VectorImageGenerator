@@ -1,4 +1,4 @@
-﻿# Vector image generator v 1.6.2L: sample script file
+﻿# Vector image generator: sample script
 
 This file is an example script for creating a vector image file. As you can see,
 comments can be located at the beginning of file and are not highlighted by special
