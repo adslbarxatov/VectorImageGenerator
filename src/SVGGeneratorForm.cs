@@ -316,8 +316,7 @@ namespace RD_AAOW
 			e.Cancel = true;
 
 			// Отображение
-			AboutForm af = new AboutForm (al, "https://github.com/adslbarxatov/VectorImageGenerator",
-				"https://github.com/adslbarxatov/VectorImageGenerator/releases",
+			AboutForm af = new AboutForm (al, "*", "*",
 				"",
 
 				"This tool allows you to generate vector image (SVG or EMF) using script file with adjustable " +
