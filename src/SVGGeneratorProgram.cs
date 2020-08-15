@@ -11,22 +11,25 @@ namespace RD_AAOW
 		[STAThread]
 		static void Main (string[] args)
 			{
-			// Подготовка к запуску
+			// Инициализация
 			Application.EnableVisualStyles ();
 			Application.SetCompatibleTextRenderingDefault (false);
+
+			// Отображение справки и запроса на принятие Политики
+			if (!ProgramDescription.AcceptEULA ())
+				return;
+			ProgramDescription.ShowAbout (true);
+
+			// Контроль параметров запуска
 			SVGGeneratorForm mainForm = null;
 
 			// Контроль аргументов
-			if ((args.Length >= 1) && (args.Length <= 3))
+			if (args.Length >= 1)
 				{
 				// Запрос справки
 				if ((args[0] == "/?") || (args[0] == "-?"))
 					{
-					MessageBox.Show ("Использование командной строки:\n\n" +
-						"SVGGenerator [Имя файла сценария] [Имя файла изображения] [Тип изображения {SVG|EMF}]\n\n" +
-						"При отсутствии второго параметра имя файла изображения формируется на основе имени файла сценария в формате SVG\n" +
-						"При отсутствии или некорректном указании третьего параметра изображение сохраняется в формате SVG\n" +
-						"При отсутствии всех параметров программа запускается в обычном режиме",
+					MessageBox.Show (Localization.GetText ("CommandLineInfo", Localization.CurrentLanguage),
 						ProgramDescription.AssemblyTitle, MessageBoxButtons.OK, MessageBoxIcon.Information);
 					return;
 					}
