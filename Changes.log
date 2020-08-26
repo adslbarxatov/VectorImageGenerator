@@ -1,5 +1,10 @@
 ﻿Vector image generator changes log
 
+Version 1.7.3i:
+• Application info interface now able to get last release's changes log;
+• Found and fixed hidden bug that caused an error when starting the application from local network;
+• Fixed bug that caused the web page request method to fail if server disconnected
+
 Version 1.7.2:
 • Added ability to accept/decline ADP at first start to the application info interface;
 • Some tips has been improved

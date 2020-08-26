@@ -1,4 +1,4 @@
-# VectorImageGenerator v 1.7.2p
+# VectorImageGenerator v 1.7.3i
 
 A tool for controllable generation of vector images
 
