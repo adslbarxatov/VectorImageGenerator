@@ -8,7 +8,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает главную форму программы
 	/// </summary>
-	public partial class SVGGeneratorForm:Form
+	public partial class SVGGeneratorForm: Form
 		{
 		// Переменные
 		private bool showSuccessMessage = true;
@@ -107,7 +107,7 @@ namespace RD_AAOW
 			}
 
 		// Выход
-		private void BExit_Click (object sender, System.EventArgs e)
+		private void BExit_Click (object sender, EventArgs e)
 			{
 			this.Close ();
 			}
@@ -166,7 +166,7 @@ namespace RD_AAOW
 						msg += (string.Format (Localization.GetText (svgsr.InitResult.ToString (), al), svgsr.FaliedIncludeFile));
 						break;
 
-					default:	// f.e., NotInited
+					default:    // f.e., NotInited
 						throw new Exception (Localization.GetText ("ExceptionMessage", al) + " (1)");
 					}
 
@@ -199,7 +199,7 @@ namespace RD_AAOW
 						msg += Localization.GetText (vectorAdapter.InitResult.ToString (), al);
 						break;
 
-					default:	// f.e., Closed, NotInited
+					default:    // f.e., Closed, NotInited
 						throw new Exception (Localization.GetText ("ExceptionMessage", al) + " (4)");
 					}
 

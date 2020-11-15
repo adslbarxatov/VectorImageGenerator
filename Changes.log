@@ -1,5 +1,9 @@
 ﻿Vector image generator changes log
 
+Version 1.8.2:
+• ADP loader has been rebuilt; policy text now formatted properly;
+• App about and Policy windows are now fully expandaple
+
 Version 1.8:
 • Cumulative updates applied
 
