@@ -1,5 +1,5 @@
-# VectorImageGenerator v 1.8.2
-> PCC: 0002AB54D0F6E718
+# VectorImageGenerator v 1.8.3
+> PCC: 0002AB544C4230BF
 
 
 A tool for controllable generation of vector images
