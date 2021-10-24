@@ -1,10 +1,10 @@
 ﻿Vector image generator changes log
 
-ToDo:
-- Added the registry access checker: it will show recommended actions for the executable file
+Version 1.9.15:
+• Added the registry access checker: it will show recommended actions for the executable file
   when Windows doesn’t allow saving settings;
-- Applied new elements in user interface;
-- AboutForm and HardWorkExecutor universal classes have been upgraded and improved
+• Applied new elements in user interface;
+• AboutForm and HardWorkExecutor universal classes have been upgraded and improved
 
 Version 1.9.2:
 • Updated link for ADP
