@@ -18,7 +18,7 @@ on curve. Points are connected in order of appearance. There may be lines
 of special types:
 
 - If some line of the block begins with keyword ```c=``` (with small letter,
-without spaces), the line should contain a description of curve's color
+without spaces), the line should contain a description of curve’s color
 in format ```c=R;G;B```, where ```R```, ```G``` and ```B``` are color decimal components.
 - If the line starts with keyword ```w=```, then the thickness of curve line
 should be specified after the equal sign.
