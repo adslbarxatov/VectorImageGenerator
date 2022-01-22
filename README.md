@@ -1,5 +1,5 @@
-# VectorImageGenerator v 1.10
-> PCC: 00050A0DBCCDF8F7
+# VectorImageGenerator v 1.10.3
+> PCC: 00053A41709B0A4C
 
 
 A tool for controllable generation of vector images
@@ -34,9 +34,10 @@ For more info save example file from the utility and open it as text
 
 ## Requirements / Требования
 
-Needs Windows XP and newer, Framework 4.0 and newer. Interface languages: ru_ru, en_us. Help languages: ru_ru, en_us
+- Windows XP or newer / или новее;
+- [Microsoft .NET Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=17718).
 
-Требуется ОС Windows XP и новее, Framework 4.0 и новее. Языки интерфейса: ru_ru, en_us. Языки документации: ru_ru, en_us
+Interface languages / языки интерфейса: ru_ru, en_us.
 
 &nbsp;
 
