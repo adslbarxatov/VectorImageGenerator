@@ -1,4 +1,3 @@
-_Changes for v 1.11_:
-- Parsing methods for ADP and projects descriptions have been upgraded;
-- Current updates and improvements applied;
-- Implemented the updates downloading directly from the “About the app” interface. This function requires DPModule. It allows you to download DPModule if it was not previously installed
+_Changes for v 2.0_:
+- Implemented the ability to open localized ADP, SCP and Welcome pages;
+- Required framework version updated from 4.0 to 4.8

@@ -16,10 +16,10 @@ namespace RD_AAOW
 		#region Общие параметры
 
 		// Внутренние параметры
-		private char[] splitters = new char[] { ';' };			// Массив сплиттеров строк параметров
-		private CultureInfo cie = new CultureInfo ("en-us");	// Тип десятичного разделителя
-		private const string tmpExtension = ".pcsc";			// Расширение вспомогательного файла
-		private const uint maxIncludeDeep = 100;				// Максимальное количество подключений
+		private char[] splitters = new char[] { ';' };          // Массив сплиттеров строк параметров
+		private CultureInfo cie = new CultureInfo ("en-us");    // Тип десятичного разделителя
+		private const string tmpExtension = ".pcsc";            // Расширение вспомогательного файла
+		private const uint maxIncludeDeep = 100;                // Максимальное количество подключений
 
 		/// <summary>
 		/// Максимальная абсцисса изображения
@@ -489,13 +489,13 @@ namespace RD_AAOW
 		public SVGScriptReader (string FileName)
 			{
 			// Переменные
-			bool notIncluded = true;	// Флаг, указывающий, что сборка скрипта ещё не завершена
-			FileStream FSI = null, FSO = null, FSInc = null;	// Дескрипторы файлов (входной, выходной, подключаемый)
+			bool notIncluded = true;    // Флаг, указывающий, что сборка скрипта ещё не завершена
+			FileStream FSI = null, FSO = null, FSInc = null;    // Дескрипторы файлов (входной, выходной, подключаемый)
 			StreamReader SR = null, SRInc = null;
 			StreamWriter SW = null;
-			uint step = 1;				// Номер шага сборки
-			uint includeDeep = 0;		// Количество подключенных файлов (для прерывания зацикливания)
-			string fileNameI = FileName,	// Имена промежуточных файлов
+			uint step = 1;              // Номер шага сборки
+			uint includeDeep = 0;       // Количество подключенных файлов (для прерывания зацикливания)
+			string fileNameI = FileName,    // Имена промежуточных файлов
 				fileNameO = FileName + tmpExtension + step.ToString ();
 
 			#region Сборка скрипта
@@ -668,7 +668,7 @@ namespace RD_AAOW
 					#region Оператор смещения поля отрисовки
 					case "{":
 						// Добавление смещения
-						sourceScript.Add (str);		// Формирование исходного скрипта
+						sourceScript.Add (str);     // Формирование исходного скрипта
 						str = SR.ReadLine ();
 						sourceScript.Add (str);
 						currentLine++;
@@ -1073,7 +1073,7 @@ namespace RD_AAOW
 
 						sourceScript.Add ("");
 						break;
-					#endregion
+						#endregion
 					}
 				}
 

@@ -1,5 +1,9 @@
 ﻿Vector image generator changes log
 
+Version 2.0:
+• Implemented the ability to open localized ADP, SCP and Welcome pages;
+• Required framework version updated from 4.0 to 4.8
+
 Version 1.11:
 • Parsing methods for ADP and projects descriptions have been upgraded;
 • Current updates and improvements applied
