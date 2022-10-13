@@ -2,42 +2,19 @@
 > PCC: 0003DA3B88BF0471
 
 
-A tool for controllable generation of vector images
+A tool for controllable generation of vector images.
 
-Средство управляемого формирования векторных изображений
+:warning: ***Starting from version 2.0 this project is a part of the [GeomagDataDrawer](https://github.com/adslbarxatov/GeomagDataDrawer) app.
+This repository is no longer updated***
 
+&nbsp;
+
+Средство управляемого формирования векторных изображений.
+
+:warning: ***С версии 2.0 проект является частью приложения [GeomagDataDrawer](https://github.com/adslbarxatov/GeomagDataDrawer).
+Данный репозиторий более не обновляется***
 
 #
-
-## About
-
-This tool allows you to generate vector image (SVG or EMF) using script file with adjustable parameters of curves,
-axes and text labels. This application is the side product of Geomag data drawer project.
-
-For more info save example file from the utility and open it as text
-
-&nbsp;
-
-
-
-## Описание
-
-Этот инструмент позволяет генерировать векторное изображение (SVG или EMF), используя файл сценария
-с настраиваемыми параметрами кривых, осей и текстовых меток. Это приложение является побочным продуктом
-проекта Geomag data drawer.
-
-Для получения дополнительной информации сохраните файл образца из утилиты и откройте его в текстовом представлении
-
-&nbsp;
-
-
-
-## Requirements / Требования
-
-- Windows 7 or newer / или новее;
-- [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631).
-
-Interface languages / языки интерфейса: ru_ru, en_us.
 
 &nbsp;
 
